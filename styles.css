@@ -1,0 +1,203 @@
+html {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(rgb(119, 178, 140), rgb(21, 122, 110));
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif;
+  overflow:hidden;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+  #animate {
+    position: absolute;
+    left: 43%;
+  }
+
+  #greeting {
+    font-size: 50px;
+    font-weight:900;
+    text-transform: uppercase;
+    position: absolute;
+    left: 40%;
+  }
+
+  ul {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    display: none;
+  }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    li {
+      border: solid 2px white;
+      list-style: none;
+      font-weight: 600;
+      color: rgb(21, 122, 110);
+      margin: 0 40px 0 40px;
+      font-size: 20px;
+      display: none;
+      width: 100%;
+      -webkit-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      transition: all 200ms ease;
+    }
+
+    li:hover {
+      background-color: white;
+    }
+
+    li:hover a {
+      color: rgb(21, 122, 110);
+    }
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) {
+  #animate {
+    left: 35%;
+    height: 100px;
+    width: 100px;
+  }
+  #greeting {
+    font-size: 25px;
+    left: 30%;
+    text-align: center;
+  }
+  ul {
+    left: 6%;
+    height: 100%;
+    top: 60%;
+  }
+  li {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 75%;
+    text-align: center;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #animate {
+    left: 35%;
+    height: 150px;
+    width: 150px;
+  }
+  #greeting {
+    font-size: 35px;
+    left: 30%;
+    text-align: center;
+  }
+  ul {
+    left: 20%;
+    height: 100%;
+    top: 60%;
+  }
+  li {
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 75%;
+    text-align: center;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #animate {
+    left: 42%;
+    height: 150px;
+    width: 150px;
+  }
+  #greeting {
+    font-size: 40px;
+    left: 37%;
+    text-align: center;
+  }
+  ul {
+    left: 33%;
+    height: 100%;
+    top: 60%;
+  }
+  li {
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 75%;
+    text-align: center;
+    display: none;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  #animate {
+    left: 41%;
+    height: 200px;
+    width: 200px;
+  }
+  #greeting {
+    font-size: 50px;
+    left: 37%;
+    text-align: center;
+  }
+  ul {
+    left: 13%;
+    height: auto;
+    width: auto;
+    top: 65%;
+  }
+  li {
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  #animate {
+    left: 42%;
+    height: 200px;
+    width: 200px;
+  }
+  #greeting {
+    font-size: 55px;
+    left: 38%;
+    text-align: center;
+  }
+  ul {
+    left: 19%;
+    height: auto;
+    width: auto;
+    top: 70%;
+  }
+  li {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    display: none;
+  }
+}

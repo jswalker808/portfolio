@@ -29,9 +29,14 @@ body {
   font-weight: bold;
   background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
   border: none;
+  border-radius: 30px;
   transition: 0.5s font-size;
 }
 
 .btn.btn-primary.btn-lg:hover {
   font-size: 40px;
+}
+
+.btn.btn-primary.btn-lg:onclick {
+  background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
 }

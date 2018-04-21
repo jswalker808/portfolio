@@ -2,49 +2,68 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* NavBar */
-.navbar.navbar-expand-lg.navbar-light {
-  /* background-color:  */
-  background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
-}
-  /* Navbar logo */
-  .navbar-brand.text-light {
-    font-weight:bolder;
-    text-transform: uppercase;
+/* Index.html */
+  /* NavBar */
+  .navbar.navbar-expand-lg.navbar-light {
+    /* background-color:  */
+    background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
   }
-  /* navbar li items */
-  .collapse.navbar-collapse.justify-content-end {
-    font-weight: 600;
+    /* Navbar logo */
+    .navbar-brand.text-light {
+      font-weight:bolder;
+      text-transform: uppercase;
+    }
+    /* navbar ul */
+    .collapse.navbar-collapse.justify-content-end {
+      font-weight: 600;
+    }
+    /* navbar li items */
+    .nav-link.text-light {
+      margin: 0 5px 0 5px;
+    }
+
+    .navbar-toggler-icon {
+      color: white;
+    }
+
+  /* Banner text */
+  .display-3.text-center {
+    color: #144852;
+    text-shadow: 2px 2px 4px grey;
   }
 
-  .navbar-toggler-icon {
+  /* button to about */
+  .btn.btn-lg {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s font-size;
     color: white;
   }
+  /* When hovering over button */
+  .btn.btn-lg:hover {
+    font-size: 40px;
+  }
+  /* When clicking button */
+  .btn.btn-lg:active {
+    background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
+    background-color: #2B9EB3;
+    border: none;
+  }
 
-/* Banner text */
-.display-3.text-center {
-  color: #144852;
-  text-shadow: 2px 2px 4px grey;
-}
-
-/* button to about */
-.btn.btn-lg {
-  margin-top: 25px;
-  font-size: 35px;
-  font-weight: bold;
-  background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
-  border: none;
-  border-radius: 30px;
-  transition: 0.5s font-size;
-  color: white;
-}
-
-.btn.btn-lg:hover {
-  font-size: 40px;
-}
-
-.btn.btn-lg:active {
-  background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
-  background-color: #2B9EB3;
-  border: none;
-}
+/* About */
+  .aboutInfo {
+    width: 40%;
+  }
+  #aboutImg {
+    height: 450px;
+    width:600px;
+    border-radius: 10px;
+  }
+  .aboutInfo h1 {
+    color: #144852;
+    text-shadow: 2px 2px 4px grey;
+  }

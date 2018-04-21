@@ -17,13 +17,18 @@ body {
     font-weight: 600;
   }
 
+  .navbar-toggler-icon {
+    color: white;
+  }
+
 /* Banner text */
 .display-3.text-center {
   color: #144852;
+  text-shadow: 2px 2px 4px grey;
 }
 
 /* button to about */
-.btn.btn-primary.btn-lg {
+.btn.btn-lg {
   margin-top: 25px;
   font-size: 35px;
   font-weight: bold;
@@ -31,12 +36,15 @@ body {
   border: none;
   border-radius: 30px;
   transition: 0.5s font-size;
+  color: white;
 }
 
-.btn.btn-primary.btn-lg:hover {
+.btn.btn-lg:hover {
   font-size: 40px;
 }
 
-.btn.btn-primary.btn-lg:onclick {
+.btn.btn-lg:active {
   background: linear-gradient(to right, #2B9EB3 , #8BCAD5);
+  background-color: #2B9EB3;
+  border: none;
 }

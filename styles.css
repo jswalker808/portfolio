@@ -15,7 +15,7 @@ body {
     }
     /* navbar ul */
     .collapse.navbar-collapse.justify-content-end {
-      font-weight: 600;
+      /* font-weight: 600; */
     }
     /* navbar li items */
     .nav-link.text-light {
@@ -27,7 +27,7 @@ body {
     }
 
   /* Banner text */
-  .display-3.text-center {
+  .welcomeText.text-center {
     color: #144852;
     text-shadow: 2px 2px 4px grey;
   }
@@ -67,3 +67,41 @@ body {
     color: #144852;
     text-shadow: 2px 2px 4px grey;
   }
+
+/* Contact */
+  .btn.btn-primary {
+    background-color: #2B9EB3;
+    border: none;
+  }
+
+  /* // Extra small devices (portrait phones, less than 576px)
+  // No media query since this is the default in Bootstrap
+
+  // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 360px) {
+    .welcomeText.text-center {
+      font-size: 50px;
+    }
+  }
+  @media (min-width: 360px) {
+    .welcomeSubText.text-center {
+      font-size: 35px;
+    }
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .welcomeText.text-center {
+      font-size: 70px;
+    },
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .welcomeText.text-center {
+      font-size: 70px;
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }

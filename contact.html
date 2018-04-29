@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>James' Portfolio</title>
+    <link rel="shortcut icon" href="computer_yTL_icon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap link -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:500" rel="stylesheet">
@@ -37,29 +38,33 @@
       </div>
     </nav>
 
-    <div class="container my-5 px-auto" style="width: 40%;">
-      <h1 class="text-center mb-4">Leave me a message!</h1>
-      <form action="https://formspree.io/seiyawalk@gmail.com" method="POST">
-        <div class="form-group">
-          <label for="fname">First Name</label>
-          <input type="text" class="form-control" name="firstName" id="fname">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h1 class="text-center mb-4">Leave me a message!</h1>
+          <form action="https://formspree.io/seiyawalk@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" name="firstName" id="fname">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" name="lastName" id="lname">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" name="emailAddress" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" id="message" style="height: 150px;"></textarea>
+            </div>
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-primary" style="width: 50%;">Submit</button>
+            </div>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="lname">Last Name</label>
-          <input type="text" class="form-control" name="lastName" id="lname">
-        </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" name="emailAddress" id="email">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" name="message" id="message" style="height: 150px;"></textarea>
-        </div>
-        <div class="row justify-content-center">
-          <button type="submit" class="btn btn-primary" style="width: 50%;">Submit</button>
-        </div>
-      </form>
+      </div>
     </div>
     <!-- external bootstrap javascript libraries -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

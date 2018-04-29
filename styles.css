@@ -56,10 +56,9 @@ body {
 
 /* About */
   .aboutInfo {
-    width: 40%;
+    margin-top: 20px;
   }
   #aboutImg {
-    height: 450px;
     width:600px;
     border-radius: 10px;
   }
@@ -72,6 +71,21 @@ body {
   .btn.btn-primary {
     background-color: #2B9EB3;
     border: none;
+  }
+
+/* Portfolio */
+  .container.projGrid {
+    margin-top: 75px;
+
+  }
+  .img-thumbnail {
+    transition: 0.2s border;
+    height: 250px;
+    width: 350px;
+  }
+  .img-thumbnail:hover {
+    border: solid 5px;
+    border-color: #b3ecff;
   }
 
   /* // Extra small devices (portrait phones, less than 576px)

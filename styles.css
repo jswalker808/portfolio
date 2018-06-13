@@ -30,6 +30,7 @@ body {
   .welcomeText.text-center {
     color: #144852;
     text-shadow: 2px 2px 4px grey;
+    margin-bottom: 25px;
   }
 
   /* button to about */
@@ -56,13 +57,13 @@ body {
 
 /* About */
   .aboutInfo {
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   #aboutImg {
     width:600px;
     border-radius: 10px;
   }
-  .aboutInfo h1 {
+  .pageHeader {
     color: #144852;
     text-shadow: 2px 2px 4px grey;
   }
@@ -75,18 +76,50 @@ body {
 
 /* Portfolio */
   .container.projGrid {
-    margin-top: 75px;
-
+    margin-top: 50px;
+  }
+  .pageHeader {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
   }
   .img-thumbnail {
     transition: 0.2s border;
     height: 250px;
     width: 350px;
+    border: solid 3px #c9d3e2;
   }
   .img-thumbnail:hover {
     border: solid 5px;
     border-color: #b3ecff;
   }
+  .row {
+    margin-bottom: 50px;
+  }
+  .githubLinks {
+    /* margin-top: -10px; */
+    padding: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: inherit;
+  }
+
+/* Resume */
+  .resumeContainers {
+    padding: 20px;
+  }
+    .resumeInfo {
+      transition: 0.2s border;
+      border: solid 2px grey;
+      border-radius: 4px;
+      padding: 25px;
+      text-align: left;
+      border: solid 3px #c9d3e2;
+    }
+    .resumeInfo:hover {
+      border: solid 5px;
+      border-color: #b3ecff;
+    }
 
   /* // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
